@@ -11,7 +11,8 @@ import SwiftUI
 struct HealthSyncApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Text("HealthSync")
+                .font(.largeTitle)
         }
     }
 }
